@@ -6,6 +6,13 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
  wait(3)
  local args = {
+    [1] = "like the way I like you",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+ wait(3)
+ local args = {
     [1] = "อยากให้มาชิม มาเช็คอิน my room",
     [2] = "All"
 }

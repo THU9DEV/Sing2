@@ -1,5 +1,5 @@
 local args = {
-    [1] = "I wish you like me like the way I like you",
+    [1] = "I wish you like me",
     [2] = "All"
 }
 
